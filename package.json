@@ -4,16 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "build": "webpack",
+    "dev": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "raw-loader": "^4.0.2",
+    "three": "^0.171.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
   "dependencies": {
     "express": "^4.21.2",
-    "nodemon": "^3.1.9",
-    "three": "^0.171.0",
-    "webpack": "^5.97.1"
+    "path": "^0.12.7",
+    "three-custom-shader-material": "^6.2.0"
   }
 }
