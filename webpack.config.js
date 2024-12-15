@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
   entry: {
     eyeTracking: './src/eyeTracking.js',
-    test: './src/test.js'
+    headTracking: './src/headTracking.js',
+    combinedTracking: './src/combinedTracking.js',
   },
   output: {
     filename: '[name].bundle.js', // Generates dissolveShader.bundle.js, portalShader.bundle.js, etc.

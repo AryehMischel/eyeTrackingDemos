@@ -1,6 +1,8 @@
 {
 	"Demos": [
-
+		"eyeTracking",
+		"headTracking",
+		"combinedTracking"
 	]
 
     

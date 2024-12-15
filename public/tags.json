@@ -1,6 +1,9 @@
 {
 	"Dissolve": [ "Transition Shader's" ],
-	"Portal": [ "VFX" ]
+	"Portal": [ "VFX" ],
+	"eyeTracking": [ "Demos" ],
+	"headTracking": [ "Demos" ],
+	"combinedTracking": [ "Demos" ]
 
 
 }
