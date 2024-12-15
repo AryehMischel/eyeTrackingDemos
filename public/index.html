@@ -25,7 +25,7 @@
         <h1>Eye tracking</h1>
 
         <div id="sections">
-          <a>Three.js</a>
+          <a href="https://threejs.org/"  target="_blank">Three.js</a>
         </div>
 
         <div id="expandButton"></div>
@@ -35,7 +35,7 @@
         <h1></h1>
 
         <div id="sections">
-          <a href="https://github.com/AryehMischel/shaderPlayground">Github</a>
+          <a href="https://github.com/AryehMischel/eyeTrackingDemos"  target="_blank">Github</a>
           <span class="selected">examples</span>
         </div>
 
@@ -252,9 +252,10 @@
 
         // Reveal "View source" button and set attributes to this example
         viewSrcButton.style.display = "";
+        viewSrcButton.target = "_blank";
         viewSrcButton.href =
-          "https://github.com/AryehMischel/shaderPlayground/tree/main/public/Demos/" +
-          selected + "Shader" + "/index.js";
+          "https://github.com/AryehMischel/eyeTrackingDemos/tree/main/src/" +
+          selected + ".js";
         viewSrcButton.title =
           "View source code for " + getName(selected) + " on GitHub";
       }
